@@ -12,6 +12,7 @@ const data = async function (search) {
   
   let jsonData = await getData.json();
   console.log(jsonData);
+  console.log(getData);
 
   if(jsonData.cod == 400)
   {    
