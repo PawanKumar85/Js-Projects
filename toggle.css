@@ -1,0 +1,68 @@
+.btn{
+    background-color: #fff;
+    width : 3.5em;
+    height: 2em;
+    border-radius: 10em;
+    padding: 0 1px;
+    margin-bottom: 5px;
+    box-shadow: inset 0 8px 60px rgba(0,0,0,.1),
+                inset 0 8px 8px rgba(0,0,0,.1),
+                inset 0 -4px 4px rgba(0,0,0,.1);
+    position : relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn_indicater
+{
+    background-color: #fff;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+    transition: .3s ease;
+}
+
+.btn_icon_indicater
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_icon
+{
+    color: #FDAC29;
+}
+
+
+/* darkmode  */
+
+.container.darkmode{
+    background-color: #2E3951;
+}
+
+.container.darkmode .display{
+    background-color: #F4FDFB;
+    color: #3C434C;
+}
+.darkmode .btn_indicater{
+    transform: translateX(1.5em);
+    background-color: black;
+    box-shadow: 0 8px 40px rgba(0, 0 ,0 ,0.3);
+}
+
+.darkmode .btn{
+    box-shadow: inset 0 8px 60px rgba(0,0,0,.3),
+                inset 8px 0 8px rgba(0,0,0,.3),
+                inset 0 -4px 4px rgba(0,0,0,.3);
+    
+}
+
+.darkmode .btn_icon{
+    color: #fff;
+}
